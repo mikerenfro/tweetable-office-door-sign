@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Door Sign</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <script type="application/x-javascript" src="iui/iui.js"></script>
+    <script type="text/javascript" src="statuspage.js"></script>
+	<!-- Default CSS -->
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen and (min-device-width: 800px)" />
+	<!-- iPad CSS -->
+	<link media="only screen and (min-device-width: 768px) and (max-device-width: 1024px)" rel="stylesheet" href="iui/iui.css" type="text/css" />
+	<link media="only screen and (min-device-width: 768px) and (max-device-width: 1024px)" rel="stylesheet" title="Default" href="iui/t/default/default-theme.css" type="text/css" />
+	<!-- iPhone 4 CSS -->
+	<link media="only screen and (-webkit-min-device-pixel-ratio: 2)" rel="stylesheet" href="iui/iui.css" type="text/css" />
+	<link media="only screen and (-webkit-min-device-pixel-ratio: 2)" rel="stylesheet" title="Default" href="iui/t/default/default-theme.css" type="text/css" />
+	<!-- iPhone CSS -->
+	<link media="only screen and (max-device width:480px)" rel="stylesheet" href="iui/iui.css" type="text/css" />
+	<link media="only screen and (max-device width:480px)" rel="stylesheet" title="Default" href="iui/t/default/default-theme.css" type="text/css" />
+	
+  </head>
+  <body>
+    <div class="toolbar">
+      <h1 id="pageTitle">Door Sign</h1>
+      <a id="backButton" class="button" href="javascript:void(0)"></a>
+    </div>
+    
+    <ul id="main" title="Door Sign" selected="true">
+      <li><a href="#common">Common</a></li>
+      <li><a href="#backat">Back at</a></li>
+      <li><a href="#bn">Brown</a></li>
+      <li><a href="#br">Bruner</a></li>
+      <li><a href="#ch">Clement</a></li>
+      <li><a href="#ph">Prescott</a></li>
+    </ul>
+    
+    <ul id="common" title="Common">
+      <li><a href="javascript:void(0)" onclick="status('In office');">In office</a></li>
+      <li><a href="javascript:void(0)" onclick="status('On campus');">On campus</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 113 or M.E. shop');">In Clement 113 or M.E. shop</a></li>
+      <li><a href="javascript:void(0)" onclick="status('At lunch');">At lunch</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In class');">In class</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In a meeting. Call x3362 in case of emergency.');">In meeting</a></li>
+      <li><a href="javascript:void(0)" onclick="status('At home');">At home</a></li>
+    </ul>
+    
+    <ul id="bn" title="Brown">
+      <li class="group">First floor</li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 110');">110 (J. Peddieson)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 111');">111 (S. Idem)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 115');">115 (C. Darvennes)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 116');">116 (J. Zhu)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 121');">121 (J. Cui)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 122');">122 (S. Munukutla)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 126');">126 (C. Mills)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In M.E. shop');">130 (J. Randolph, ME shop)</a></li>
+      <li class="group">Second floor</li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 209');">209 (ECE)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 210');">210 (R. Qiu)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 211');">211 (K. Ting)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 222');">222 (CMR)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 224');">224 (ME)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 232');">232 (D. Russell)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 239');">239 (G. Cunningham)</a></li>
+      <li class="group">Third floor</li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 304');">304 (J. Marquis)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 305');">305 (E. Griggs)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 308');">308 (D. Wilson)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 310');">310 (S. Han)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 311');">311 (C. Wilson)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 312');">312 (Y. Zhang)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 316');">316 (M. Baswell)</a></li>
+	  <li><a href="javascript:void(0)" onclick="status('In Brown 319');">319 (S. Hasan)</a></li>
+	  <li><a href="javascript:void(0)" onclick="status('In Brown 323');">323 (J. Ojo)</a></li>
+	  <li><a href="javascript:void(0)" onclick="status('In Brown 325');">325 (G. Johnson)</a></li>
+	  <li><a href="javascript:void(0)" onclick="status('In Brown 328');">328 (H. Yoon)</a></li>
+	  <li><a href="javascript:void(0)" onclick="status('In Brown 329');">329 (S. Canfield)</a></li>
+	  <li><a href="javascript:void(0)" onclick="status('In Brown 331');">331 (O. Elkeelany)</a></li>
+	  <li><a href="javascript:void(0)" onclick="status('In Brown 333');">333 (A. Alouani)</a></li>
+	  <li><a href="javascript:void(0)" onclick="status('In Brown 334');">334 (A. Anderson)</a></li>
+      <li class="group">Fourth floor</li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 409');">409</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Brown 413');">413 (C. Murray)</a></li>
+    </ul>
+    
+    <ul id="br" title="Bruner">
+      <li class="group">Fourth floor</li>
+      <li><a href="javascript:void(0)" onclick="status('In Bruner 414A');">414A (CSC Interns)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Bruner 415');">415 (E. Brown)</a></li>
+    </ul>
+    
+    <ul id="ch" title="Clement">
+      <li class="group">First floor</li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 101');">101</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 107');">107 (B. Bates)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 113');">113</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 118');">118</a></li>
+      <li class="group">Second floor</li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 201');">201 (ENGR)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 208');">208</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 210');">210</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 212');">212</a></li>
+      <li class="group">Third floor</li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 301');">301 (J. Seber)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 302');">302</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 304');">304 (W. Hawkins)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 308');">308 (R. Peterson)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 315');">315 (K. Hunter)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 316');">316 (S. Wells)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 318');">318 (K. Craven)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 320');">320</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 321');">321</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 322');">322</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 323');">323</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 326');">326 (M. Wells)</a></li>
+      <li class="group">Fourth floor</li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 400');">400</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 401');">401 (N. Guo)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 402');">402</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 403');">403</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 405');">405</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 406');">406</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 409');">409</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Clement 410');">410</a></li>
+    </ul>
+    
+    <ul id="ph" title="Prescott">
+      <li class="group">First floor</li>
+      <li><a href="javascript:void(0)" onclick="status('In Ch.E. shop');">102 (P. Melton, ChE shop)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 112');">112</a></li>
+      <li class="group">Second floor</li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 205');">205</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 213');">213 (P. Arce)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 214');">214 (ChE)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 225');">225</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 229');">229 (Y. Clark)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 231');">231 (A. Knox)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 231');">233 (WRC)</a></li>
+      <li class="group">Third floor</li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 309');">309 (B. Lapizco)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 311');">311 (R. Sanders)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 312');">312 (J. Biernacki)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 309');">340 (K. Stearman)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 342');">342</a></li>
+      <li class="group">Fourth floor</li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 405');">405 (R. Craven)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 406');">406 (T. Greenway)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 414');">414 (CESR)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 431');">431 (S. Mahajan)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 432');">432 (J. Liu)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 433');">433 (G. Radman)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 435');">435 (S. Berk)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 440B');">440B (R. Belkacemi)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 445');">445 (H. Stretz)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 448');">448 (C. Rice)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 449');">449 (C. Carnal)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 450');">450 (R. Haggard)</a></li>
+      <li><a href="javascript:void(0)" onclick="status('In Prescott 453');">453</a></li>
+    </ul>
+    
+    <ul id="backat" title="Back at">
+      <li><a href="javascript:void(0)" onclick="status('Back at 8:30 AM');">8:30</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 9:00 AM');">9:00</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 9:30 AM');">9:30</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 10:00 AM');">10:00</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 10:30 AM');">10:30</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 11:00 AM');">11:00</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 11:30 AM');">11:30</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 12:00 PM');">12:00</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 12:30 PM');">12:30</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 1:00 PM');">1:00</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 1:30 PM');">1:30</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 2:00 PM');">2:00</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 2:30 PM');">2:30</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 3:00 PM');">3:00</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 3:30 PM');">3:30</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 4:00 PM');">4:00</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 4:30 PM');">4:30</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 5:00 PM');">5:00</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 5:30 PM');">5:30</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 6:00 PM');">6:00</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 6:30 PM');">6:30</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 7:00 PM');">7:00</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 7:30 PM');">7:30</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 8:00 PM');">8:00</a></li>
+      <li><a href="javascript:void(0)" onclick="status('Back at 8:30 PM');">8:30</a></li>
+    </ul>
+  </body>
+</html>
